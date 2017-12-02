@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.dmp.camerapractice.CameraActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="@string/activity_title"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/main_image_view"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/main_image_view"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="15dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/capture_image_button"
+        android:text="@string/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/main_image_view"
+        android:layout_marginTop="15dp"/>
+</RelativeLayout>

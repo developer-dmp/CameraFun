@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CameraPractice</string>
+    <string name="dialog_message">We noticed you have already assigned a photo to this ImageView, what would you like to do?</string>
+    <string name="dialog_retake_image">Retake image</string>
+    <string name="dialog_select_image">select image</string>
+    <string name="activity_title">Take or load pictures!</string>
+    <string name="camera">Camera</string>
+</resources>
