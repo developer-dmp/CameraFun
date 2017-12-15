@@ -297,9 +297,8 @@ public class CameraActivity extends AppCompatActivity implements View.OnClickLis
 
             Bitmap bitmap = BitmapFactory.decodeFile(picturePath);
 
-
             if (bitmap != null) {
-                iv.setImageBitmap(bitmap);
+                iv.setImageBitmap(configureBitmap(bitmap, picturePath));
             } else {
                 toast("Oh no, could not load image");
             }
